@@ -33,6 +33,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "prepare": "node scripts/prepare-git-package.mjs",
     "copyhtml": "copy 'src/app/cron-editor/*.html' './components/cron-editor/'",
     "copycss": "copy 'src/app/cron-editor/*.css' './components/cron-editor/'",
     "pack": "ng-packagr -p package.json & cd dist & npm pack"
